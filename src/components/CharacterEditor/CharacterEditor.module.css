@@ -1,12 +1,18 @@
 .characterEditor {
+  position: absolute;
+  top: 100px;
+  margin-left: -300px;
+  bottom: 10px;
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
+  max-width: 50%;
 }
 
 .header {
+  width: 130%;
   padding-bottom: 64px;
 }
 
