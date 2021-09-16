@@ -7,12 +7,8 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-  max-width: 50%;
-}
-
 .header {
-  width: 130%;
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -30,6 +26,8 @@
 }
 
 .characterWrapper {
+  position: absolute;
+  left: 1000px;
 }
 
 .controlColumn {
