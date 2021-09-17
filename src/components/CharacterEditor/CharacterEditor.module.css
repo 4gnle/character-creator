@@ -1,7 +1,6 @@
 .characterEditor {
   position: absolute;
   top: 100px;
-  margin-left: -300px;
   bottom: 10px;
   padding-top: 128px;
   padding-bottom: 64px;
@@ -26,9 +25,22 @@
 }
 
 .characterWrapper {
-  position: absolute;
-  left: 1000px;
+  position: fixed;
+  right: 15vw;
+  top: 80px;
+  width: 50%;
+  height: 80%;
 }
 
 .controlColumn {
+}
+
+@media (max-width: 1480px) {
+  .characterWrapper {
+    position: fixed;
+    right: -10vw;
+    top: 80px;
+    width: 50%;
+    height: 80%;
+  }
 }
