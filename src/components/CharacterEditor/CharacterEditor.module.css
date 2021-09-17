@@ -7,7 +7,7 @@
 }
 
 .header {
-  width: 65%;
+  width: 80%;
   padding-bottom: 64px;
 }
 
@@ -63,5 +63,42 @@
     top: 100px;
     width: 50%;
     height: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    position: absolute;
+    top: -100px;
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+  }
+
+  .description {
+    position: absolute;
+    top: -50px;
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .characterWrapper {
+    position: fixed;
+    right: 2.5vw;
+    top: 100px;
+    width: 80%;
+    height: 80%;
+  }
+
+  .controlColumn {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 2em;
+    grid-gap: 2vh;
+    width: 100%;
+    overflow-x: scroll;
   }
 }

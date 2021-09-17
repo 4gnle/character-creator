@@ -13,3 +13,17 @@
   text-decoration: none;
   color: orange;
 }
+
+
+@media (max-width: 480px) {
+  .footer {
+    position: absolute;
+    padding: 64px;
+    background: hsl(0deg, 0%, 5%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: -150px;
+    height: 150px;
+  }
+}

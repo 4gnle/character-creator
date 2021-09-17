@@ -21,3 +21,22 @@
   color: white;
   border-width: 6px;
 }
+
+@media (max-width: 480px) {
+  .toggleButton {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid hsl(0deg, 0%, 5%);
+    background: white;
+    outline-offset: 2px;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-right: 4px;
+  }
+
+  .toggleButton[aria-pressed='true'] {
+    border-width: 0;
+  }
+}
