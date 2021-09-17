@@ -5,7 +5,8 @@
   color: white;
   text-align: center;
   width: 100%;
-  bottom: 0;
+  bottom: -150px;
+  height: 150px;
 }
 
 .footer > a {

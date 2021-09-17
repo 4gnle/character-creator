@@ -1,6 +1,6 @@
 .characterEditor {
-  position: absolute;
-  top: 100px;
+  position: relative;
+  top: 0px;
   bottom: 10px;
   padding-top: 128px;
   padding-bottom: 64px;
@@ -26,20 +26,44 @@
 
 .characterWrapper {
   position: fixed;
-  right: 15vw;
-  top: 80px;
+  right: 10vw;
+  top: 120px;
   width: 50%;
   height: 80%;
+  bottom: 200px;
 }
 
 .controlColumn {
+  position: fixed;
+  width: 100%;
+  background-color: #D3DFE1;
 }
 
 @media (max-width: 1480px) {
   .characterWrapper {
     position: fixed;
     right: -10vw;
-    top: 80px;
+    top: 100px;
+    width: 50%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .characterWrapper {
+    position: fixed;
+    right: -10vw;
+    top: 100px;
+    width: 50%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .characterWrapper {
+    position: fixed;
+    right: -10vw;
+    top: 100px;
     width: 50%;
     height: 80%;
   }

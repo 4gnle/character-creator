@@ -6,6 +6,8 @@ body,
 }
 
 body {
+  margin: auto;
+  margin-bottom: 100px;
   background-color: hsl(180deg, 25%, 92%);
 }
 
