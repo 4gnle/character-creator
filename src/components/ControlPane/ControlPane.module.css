@@ -30,8 +30,14 @@
 
 @media (max-width: 480px) {
   .controlPane {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    width: 100%;
+    flex: 0 0 auto;
+    margin: 10px;
+    width: 600px;
+    height: 120px;
+    scrollbar-width: none;
+  }
+
+  .controlPane::-webkit-scrollbar {
+    display: none;
   }
 }
