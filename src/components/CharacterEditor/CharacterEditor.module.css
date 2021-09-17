@@ -26,7 +26,7 @@
 
 .characterWrapper {
   position: fixed;
-  right: 10vw;
+  right: 5vw;
   top: 120px;
   width: 50%;
   height: 80%;
@@ -34,15 +34,12 @@
 }
 
 .controlColumn {
-  position: fixed;
-  width: 100%;
-  background-color: #D3DFE1;
-}
 
+}
 @media (max-width: 1480px) {
   .characterWrapper {
     position: fixed;
-    right: -10vw;
+    right: -5vw;
     top: 100px;
     width: 50%;
     height: 80%;

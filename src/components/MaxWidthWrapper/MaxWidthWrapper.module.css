@@ -5,5 +5,11 @@
   padding-right: 32px;
   margin-left: auto;
   margin-right: auto;
-  left: 200px;
+  left: -50px;
+}
+
+@media (max-width: 1180px) {
+  .maxWidthWrapper {
+    left: 0px;
+  }
 }
